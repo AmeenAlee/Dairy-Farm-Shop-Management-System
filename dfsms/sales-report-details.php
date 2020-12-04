@@ -77,7 +77,6 @@ $tdate=$_POST['todate'];
                                                     <th>#</th>
                                                     <th>Month / Year</th>
                                                     <th>Sale Amount</th>
-                                                    
                                                 </tr>
                                             </thead>
                                             <tbody>
