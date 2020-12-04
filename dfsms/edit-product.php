@@ -138,7 +138,6 @@ while($rw=mysqli_fetch_array($ret))
 </div>
 </div>
 
-
             <!-- Footer -->
 <?php include_once('includes/footer.php');?>
             <!-- /Footer -->

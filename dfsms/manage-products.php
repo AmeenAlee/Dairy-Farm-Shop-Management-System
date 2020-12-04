@@ -66,6 +66,7 @@ include_once('includes/sidebar.php');
                                                     <th>Category</th>
                                                     <th>Company</th>
                                                     <th>Product</th>
+                                                    <th>Quantity</th>
                                                     <th>Pricing</th>
                                                     <th>Posting Date</th>
                                                     <th>Action</th>
@@ -85,6 +86,7 @@ while($row=mysqli_fetch_array($query))
 <td><?php echo $row['CategoryName'];?></td>
 <td><?php echo $row['CompanyName'];?></td>
 <td><?php echo $row['ProductName'];?></td>
+<td><?php echo $row['Quantity'];?></td>
 <td><?php echo $row['ProductPrice'];?></td>
 <td><?php echo $row['PostingDate'];?></td>
 <td>
